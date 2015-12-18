@@ -3,22 +3,26 @@
 
 name:                game-of-life-haskell
 version:             0.1.0.0
--- synopsis:            
--- description:         
--- license:             
+-- synopsis:
+-- description:
+-- license:
 license-file:        LICENSE
 author:              Gabriel Lumbi
 maintainer:          gabriel.lumbi@reaktor.co.jp
--- copyright:           
--- category:            
+-- copyright:
+-- category:
 build-type:          Simple
--- extra-source-files:  
+-- extra-source-files:
 cabal-version:       >=1.10
 
 executable game-of-life-haskell
   main-is:             main.hs
-  -- other-modules:       
-  -- other-extensions:    
+  -- other-modules:
+  -- other-extensions:
   build-depends:       base >=4.8 && <4.9
-  -- hs-source-dirs:      
+  build-depends:       OpenGL
+  build-depends:       GLUT
+  build-depends:       matrix
+
+  -- hs-source-dirs:
   default-language:    Haskell2010
