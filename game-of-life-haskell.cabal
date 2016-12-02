@@ -19,7 +19,7 @@ executable game-of-life-haskell
   main-is:             main.hs
   -- other-modules:
   -- other-extensions:
-  build-depends:       base >=4.8 && <4.9
+  build-depends:       base >=4.8
   build-depends:       OpenGL
   build-depends:       GLUT
   build-depends:       matrix
